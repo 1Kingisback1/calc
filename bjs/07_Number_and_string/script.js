@@ -61,11 +61,9 @@ document.getElementById('btn_share').addEventListener('click', function () {
     inputWindow.value = '';
 });
 document.getElementById('btn_sqr').addEventListener('click', function () {
-    // inputWindow.value = Math.sqrt(parseInt())
     lastOperand = parseInt(inputWindow.value);
     result = Math.sqrt(lastOperand);
     inputWindow.value = result;
-    // operation = 'sqr';
 });
 document.getElementById('btn_calc').addEventListener('click', function () {
     if(operation === 'sum') {
